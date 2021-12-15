@@ -1,6 +1,6 @@
-from api import app, db
+from .. import app, db
 from flask import jsonify, request, Response
-from api.models.models import Recipe, User
+from ..models.models import Recipe, User
 from flask_jwt_extended import (
     create_access_token,
     jwt_required,
