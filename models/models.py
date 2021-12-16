@@ -1,4 +1,4 @@
-from api import db, bcrypt
+from app import db, bcrypt
 from sqlalchemy.orm import validates
 from sqlalchemy.orm.exc import NoResultFound
 
